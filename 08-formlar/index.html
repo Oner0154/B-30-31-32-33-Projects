@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formlar</title>
+  </head>
+  <body>
+    <h1>Kayıt Formu</h1>
+    <form action="server/kayit.js" method="POST">
+      <input type="hidden" name="id" value="123678345" />
+
+      <p>
+        <label for="ad">Adınız</label>
+        <input id="ad" name="ad" type="text" value="Ali" />
+      </p>
+
+      <p>
+        <label for="soyad">Soyadınız</label>
+        <input
+          id="soyad"
+          type="text"
+          placeholder="Soyadınızı giriniz"
+          value="Gel"
+        />
+      </p>
+
+      <p>
+        <label for="sifre">Şifreniz</label>
+        <input id="sifre" type="password" />
+      </p>
+
+      <p>
+        <label for="deneyim">Deneyim</label>
+        <input type="number" id="deneyim" />
+      </p>
+
+      <p>
+        <input type="submit" value="Gönder" />
+        <input type="reset" value="Temizle" />
+      </p>
+    </form>
+  </body>
+</html>
