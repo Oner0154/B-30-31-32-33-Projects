@@ -13,7 +13,14 @@
 
       <p>
         <label for="ad">Adınız</label>
-        <input id="ad" name="ad" type="text" value="Ali" />
+        <input
+          id="ad"
+          name="ad"
+          type="text"
+          value="Ali"
+          required
+          minlength="2"
+        />
       </p>
 
       <p>
@@ -29,12 +36,12 @@
 
       <p>
         <label for="sifre">Şifreniz</label>
-        <input id="sifre" type="password" />
+        <input id="sifre" type="password" required minlength="6" />
       </p>
 
       <p>
         <label for="deneyim">Deneyim</label>
-        <input type="number" id="deneyim" />
+        <input min="0" max="10" type="number" id="deneyim" />
       </p>
 
       <p>
@@ -102,7 +109,7 @@
       </p>
 
       <p>
-        <input type="submit" value="Gönder" disabled />
+        <input type="submit" value="Gönder" />
         <input type="button" value="Kontrol Et" />
         <input type="reset" value="Temizle" />
       </p>
