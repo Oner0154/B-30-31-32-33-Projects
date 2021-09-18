@@ -38,22 +38,67 @@
       </p>
 
       <p>
-        <label for="hobiler">Hobileriniz</label><br />
+        <label>Hobileriniz</label><br />
 
-        <label for="futbol">Futbol</label>
-        <input type="checkbox" name="futbol" id="futbol" value="futbol" /><br />
+        <input type="checkbox" name="futbol" id="x" value="futbol" />
+        <label for="x">Futbol</label><br />
 
-        <label for="basketbol">Basketbol</label>
         <input
           type="checkbox"
           name="basketbol"
           id="basketbol"
           value="basketbol"
-        />
+          checked
+        /><label for="basketbol">Basketbol</label>
         <br />
 
-        <label for="voleybol">Voleybol</label>
         <input type="checkbox" name="voleybol" id="voleybol" value="voleybol" />
+        <label for="voleybol">Voleybol</label>
+      </p>
+
+      <p>
+        <label for="cinsiyet">Cinsiyet</label><br />
+
+        <input type="radio" name="cinsiyet" id="erkek" value="erkek" />
+        <label for="erkek">Erkek</label><br />
+
+        <input type="radio" name="cinsiyet" id="kadin" value="bayan" />
+        <label for="kadin">Kadın</label><br />
+      </p>
+
+      <p>
+        <label for="medeni">Medeni Hali</label><br />
+
+        <input type="radio" name="medeni_hali" id="evli" value="evli" />
+        <label for="evli">Evli</label><br />
+
+        <input type="radio" name="medeni_hali" id="bekar" value="bekar" />
+        <label for="bekar">Bekar</label><br />
+      </p>
+
+      <p>
+        <label for="avatar">Avatar</label>
+        <input type="file" name="avatar" id="avatar" />
+      </p>
+
+      <p>
+        <label for="dogum">Doğum Tarihi</label>
+        <input type="date" name="dogum" id="dogum" />
+      </p>
+
+      <p>
+        <label for="dogum_yeri">Doğum Yeri</label>
+        <select name="dogum" id="dogum_yeri">
+          <option value="1">Adana</option>
+          <option value="2">Adıyaman</option>
+          <option value="3">Afyon</option>
+          <option value="4">Ağrı</option>
+        </select>
+      </p>
+
+      <p>
+        <label for="adres">Adres</label><br />
+        <textarea name="adres" id="adres" cols="30" rows="10"></textarea>
       </p>
 
       <p>
