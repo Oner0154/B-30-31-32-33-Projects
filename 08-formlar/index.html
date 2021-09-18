@@ -23,6 +23,7 @@
           type="text"
           placeholder="Soyadınızı giriniz"
           value="Gel"
+          disabled
         />
       </p>
 
@@ -37,7 +38,27 @@
       </p>
 
       <p>
-        <input type="submit" value="Gönder" />
+        <label for="hobiler">Hobileriniz</label><br />
+
+        <label for="futbol">Futbol</label>
+        <input type="checkbox" name="futbol" id="futbol" value="futbol" /><br />
+
+        <label for="basketbol">Basketbol</label>
+        <input
+          type="checkbox"
+          name="basketbol"
+          id="basketbol"
+          value="basketbol"
+        />
+        <br />
+
+        <label for="voleybol">Voleybol</label>
+        <input type="checkbox" name="voleybol" id="voleybol" value="voleybol" />
+      </p>
+
+      <p>
+        <input type="submit" value="Gönder" disabled />
+        <input type="button" value="Kontrol Et" />
         <input type="reset" value="Temizle" />
       </p>
     </form>
