@@ -1,0 +1,11 @@
+.kutu {
+  width: 70px;
+  height: 70px;
+  background-color: hotpink;
+  border: 1px solid blue;
+}
+
+.kutular {
+  display: flex;
+  flex-direction: row;
+}
