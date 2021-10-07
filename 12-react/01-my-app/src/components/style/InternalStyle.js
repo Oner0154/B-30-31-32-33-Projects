@@ -12,6 +12,7 @@ const InternalStyle = () => {
     <div style={styleParagraph}>
       hocam şöyle somut projelerde görmek istiyor insan
       <span style={styleSalih}>(Salih Bayram)</span>
+      <div style={styleParagraph}>YEni yazı</div>
     </div>
   );
 };
