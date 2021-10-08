@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header id="header" className="header fixed-top">
+    <div id="header" className="header fixed-top">
       <nav id="scrollspy" className="navbar navbar-expand-lg header-nav">
         <div className="container">
           <a
@@ -65,7 +65,7 @@ const Header = () => {
           </div>
         </div>
       </nav>
-    </header>
+    </div>
   );
 };
 

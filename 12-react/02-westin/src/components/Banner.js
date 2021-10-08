@@ -19,7 +19,7 @@ const Banner = () => {
                     data-elements="UI Designer.,Web Designer.,Web Developer."
                   ></span>
                 </h1>
-                <a href="javascript:void(0);" className="pill-button-01">
+                <a href="#" className="pill-button-01">
                   Download Cv
                 </a>
               </div>
